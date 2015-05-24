@@ -36,7 +36,10 @@ These signals were used to estimate variables of the feature vector for each pat
 
 In short acc denotes Accelerometer,Gyro denotes Gyroscope readings, Mag is for Magniture of these three dimensional signals. X, Y, Z denotes the signals in X, Y, Z directions.
 
+The set of variables that were estimated from these signals are: 
 
+1. mean: Mean value
+2. std: Standard deviation
 
 
 ## Step 5 

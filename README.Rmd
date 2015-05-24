@@ -1,6 +1,8 @@
 ---
 title: "README"
-output: html_document
+output:
+  html_document:
+    keep_md: yes
 ---
 The given Data is complicated. It can be downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
 
@@ -86,6 +88,10 @@ These signals were used to estimate variables of the feature vector for each pat
 
 In short acc denotes Accelerometer,Gyro denotes Gyroscope readings, Mag is for Magniture of these three dimensional signals. X, Y, Z denotes the signals in X, Y, Z directions.
 
+The set of variables that were estimated from these signals are: 
+
+1. mean: Mean value
+2. std: Standard deviation
 
 ```{r, echo=TRUE}
  colnames(Final_dataset) [3] <- "XTimeBody_acc_mean"
